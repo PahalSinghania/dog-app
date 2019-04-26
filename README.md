@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## Welcome to dog tinder
 
-You can use the [editor on GitHub](https://github.com/PahalSinghania/dog-app/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a dog socialization app that relies primarily on JS, PHP, MySQL
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Motivation
 
-### Markdown
+As of 2018, the U.S has 127 million households, out of which 60.2 million households have at least one dog as a pet. Since that amounts to roughly half the population keeping dogs, our team tried to tackle one of the issues that dog owners can face: socializing their dogs in metropolitan cities. This is important because socializing a dog is essential for its development as it leads to a well-mannered and stable temperament.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Since most people living in urban cities reside in apartments and usually have only one dog, it makes it very difficult for the owners to find socialization opportunities for their four-legged friends. This can be problematic as the most they have at their disposal are dog parks and a handful of Facebook meetup groups. However, this becomes an issue when owners want to look for a similar breed or similar age dog for their dogs. So, our team decided to tackle this issue by creating a dog socialization app, called Dinder, where owners can find the right kind of friend for their pet. It enables an owner to interact with other dog owners within the vicinity through an interface that enables them to accept/reject other suggested dogs based on dog attributes like age, size, breed, gender, fixed (neutered/spayed) and temperament.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PahalSinghania/dog-app/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Through Dinder, owners can create user profiles for themselves, followed by one or more dog profiles depending on how many dogs they have. Then, they will get dog suggestions for each independent dog profile while taking into account their location (zip codes). Owners can accept (click left) or reject (click right) on the dog profiles suggested for their dogs. If they accept, they can message these profiles to talk and schedule a meeting. If they reject, the slider just shows the next suggestion. Owners also have the ability to block other owners if any negative interactions occur, so that they they don’t see any other dogs from the blocked owner again. User registration, user login, dog registration, matching, messaging and user blocking functions have been implemented for this project. We were able to complete many of the features, such as user registration, user authentication, dog registration, and messaging. However, not all functions work. While we did try our best, unfortunately, not all features were completed. Among numerous other bugs, the image uploading does not work and neither does the temperament addition. While the pal adding procedures work, the webpage only fetches and shows them once in a blue moon.
